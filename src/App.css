@@ -1,0 +1,208 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.password-manager-container {
+  background-image: linear-gradient(#9ba9eb, #c3caea);
+  background-size: cover;
+  padding: 40px;
+}
+.app-logo {
+  height: 50px;
+  width: 150px;
+}
+.add-password-container {
+  background-color: #5763a5;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+.form-container {
+  background-color: #454f84;
+  border-radius: 10px;
+  padding: 20px;
+  width: 45%;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.password-manager-img {
+  height: 400px;
+  width: 45%;
+  background-size: cover;
+}
+.form-title {
+  color: #f8fafc;
+  font-size: 25px;
+}
+.form-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+.input-card {
+  background-color: #f8fafc;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.input-icon-card {
+  border-right: 1px solid #454f84;
+  padding: 5px;
+  width: 10%;
+}
+.input-icons-img {
+  height: 25px;
+  width: 25px;
+}
+.input-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 10px;
+  width: 85%;
+}
+.input-card {
+  border-width: 0px;
+  outline: none;
+  cursor: pointer;
+  background-color: #f8fafc;
+  width: 100%;
+  font-size: 17px;
+  padding-left: 10px;
+}
+.button-card {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.add-button {
+  background-color: #0b69ff;
+  border-width: 0;
+  width: 80px;
+  padding: 5px;
+  font-size: 16px;
+  color: #f8fafc;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.add-password-list-container {
+  background-color: #5763a5;
+  height: 150vh;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.password-count-search-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.password-count-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.your-password-title {
+  color: #f8fafc;
+  font-size: 20px;
+}
+.passwords-count {
+  border: 1px solid #94a3b8;
+  border-radius: 10px;
+  margin-left: 10px;
+  color: #f8fafc;
+  height: 25px;
+  width: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.search-card {
+  border-width: 0px;
+  outline: none;
+  cursor: pointer;
+  background-color: #f8fafc;
+  width: 40%;
+  border-radius: 5px;
+  font-size: 17px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.separator {
+  width: 100%;
+  border: 1px solid #7683cb;
+}
+.toggle-password-card {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  color: #f8fafc;
+  font-size: 18px;
+}
+.passwords-lists-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+.no-passwords-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no-passwords-img {
+  height: 450px;
+  width: 550px;
+}
+.no-passwords {
+  color: #ffffff;
+  font-size: 35px;
+}
